@@ -4,6 +4,6 @@ An intro to using the clojure spec API
 Getting started
 A repl with the base dependencies should be runnable via:
 
-`lein run`
+`lein repl`
 OR
-`clj`
+`clj -C:test`
