@@ -136,6 +136,6 @@ named positional elements:
 ```clj
 (s/valid? ::cli-option-pairs ["-server" "foo" "-verbose" true "-user" "joe"])
 ```
-- spec a CSV-like input [1 "foo" "2018-01-01"] using `s/coll-of` and `s/cat`
+- spec a CSV-like input [1 "foo" :a] using `s/coll-of` and `s/cat`
 - what happens when you use `s/*` or `s/+` instead of `s/coll-of`, and why?
 - spec a ring-like HTTP req object
