@@ -1,4 +1,4 @@
-#Section One: the basics
+# Section One: the basics
 qualified keywords
 (cljc bug) - aliased qualified keywords are expanded at read-time so if you
 have a qualified keyword that is clj or cljs only referring to a spec, compiler
@@ -67,7 +67,7 @@ Spec provides facilities for composing your specs:
                          between-one-and-six?))
 ```
 
-###`s/and` vs `and`:
+### `s/and` vs `and`:
 ```clj
 (s/explain ::die-roll "1")
 ;; => val: "1" fails spec: :spec-basics/die-roll predicate: number?
